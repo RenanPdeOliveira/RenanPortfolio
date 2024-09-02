@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renan Pires Portifólio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Barra de navegação -->
+    <nav class="navbar">
+      <div class="navbar__content">
+        <a id="navbar__title" href="index.html">RP</a>
+        <ul class="navbar__links">
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#portfolio">Portifólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <!-- Barra de navegação mobile com icone de burguer-->
+        <div class="navbar__mobile">
+          <img src="assets/burger.svg" alt="Burguer" class="burguer" />
+          <ul class="mobile__links">
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#portfolio">Portifólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sobre -->
+    <header id="sobre" class="max-width">
+      <div class="header__about">
+        <h1>Olá, sou Renan Pires</h1>
+        <p>
+          Sou estudante do curso Análise e Desenvolvimento de Sistemas pela
+          UNINTER. Venho estudando programação a mais de um ano e meio, onde
+          iniciei minha jornada estudando desenvolvimento mobile,
+          expecificamente Android.
+        </p>
+        <br />
+        <p>
+          Sou formado em Educação Física, onde atuei por cerca de seis anos, no
+          entanto decidi fazer essa migração de carreira por ser apaixonado por
+          tecnologia.
+        </p>
+        <br />
+        <p>
+          Amo jogar videogame, assistir filmes e séries sobre heróis, ação e
+          suspense, gosto de praticar esportes e ir para academia e sair com os
+          amigos nos finais de semana.
+        </p>
+      </div>
+      <div class="header__photo">
+        <img class="image" src="assets/renan.png" alt="Renan Pires" />
+      </div>
+    </header>
+
+    <!-- Formação -->
+    <section id="formacao" class="skills max-width">
+      <div class="skills__content">
+        <!-- Meus cursos -->
+        <h2>Minha Formação</h2>
+        <ul>
+          <li class="skills__item">
+            <img src="assets/graduacao.svg" alt="Graduação" />
+            <h3>Análise e Desenvolvimento de Sistemas</h3>
+            <p>Centro Universitário Internacional - UNINTER</p>
+            <p>2024 - Atual</p>
+          </li>
+          <li class="skills__item">
+            <img src="assets/graduacao.svg" alt="Graduação" />
+            <h3>
+              Especialização em Bioquímica, Fisiologia, Treinamento e Nutrição
+            </h3>
+            <p>Universidade Estadual de Campinas - UNICAMP</p>
+            <p>2018 - 2019</p>
+          </li>
+          <li class="skills__item">
+            <img src="assets/graduacao.svg" alt="Graduação" />
+            <h3>Educação Física Bacharelado</h3>
+            <p>Centro Universitário de Jaguariúna - UNIFAJ</p>
+            <p>2014 - 2017</p>
+          </li>
+        </ul>
+      </div>
+      <!-- Idiomas -->
+      <div class="skills__content">
+        <h2>Idiomas</h2>
+        <ul>
+          <li class="skills__item">
+            <img src="assets/portugues.svg" alt="Português" />
+            <h3>Português</h3>
+            <p>C2 - Nativo</p>
+          </li>
+          <li class="skills__item">
+            <img src="assets/ingles.svg" alt="Inglês" />
+            <h3>Inglês</h3>
+            <p>B2 - Avançado</p>
+          </li>
+          <li class="skills__item">
+            <img src="assets/italiano.svg" alt="Italiano" />
+            <h3>Italiano</h3>
+            <p>B1 - Intermediário</p>
+          </li>
+          <li class="skills__item">
+            <img src="assets/espanhol.svg" alt="Espanhol" />
+            <h3>Espanhol</h3>
+            <p>A1 - Iniciante</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Portifólio -->
+    <section id="portfolio" class="portfolio max-width">
+      <div class="portfolio__top">
+        <h2>Meu Portifólio</h2>
+        <p>
+          Aqui estão alguns dos meus projetos em aplicativos da plataforma
+          Android, uns ainda em fase de desenvolvimento.
+        </p>
+      </div>
+      <ul>
+        <li>
+          <div class="image">
+            <img src="assets/bmi-calculator.jpeg" alt="BMI Calculator" />
+          </div>
+          <div class="portfolio__info">
+            <h3>BMI Calculator</h3>
+            <p>
+              Aplicativo Android desenvolvido em Kotlin para cálculo de IMC. A
+              classificação do índice de massa corporal (IMC) pode ajudar a
+              identificar problemas de obesidade ou desnutrição em crianças,
+              adolescentes, adultos e idosos.
+            </p>
+            <a href="https://github.com/RenanPdeOliveira/BMI-Calculator"
+              target="_blank">Saiba mais &rarr;
+            </a>
+          </div>
+        </li>
+        <li class="portfolio__top__reverse">
+          <div class="image">
+            <img
+              src="assets/calculator-compose.jpeg"
+              alt="Calculator Compose"
+            />
+          </div>
+          <div class="portfolio__info">
+            <h3>Calculator Compose</h3>
+            <p>
+              Calculator Compose é meu primeiro projeto construído com Jetpack
+              Compose e Kotlin, onde pude implementar ViewModel, ComposeState e
+              alguns componentes de composição de UI.
+            </p>
+            <a href="https://github.com/RenanPdeOliveira/CalculatorCompose"
+              target="_blank">Saiba mais &rarr;
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="image">
+            <img src="assets/weather-compose.jpeg" alt="Weather Compose" />
+          </div>
+          <div class="portfolio__info">
+            <h3>Weather Compose</h3>
+            <p>
+              Weather compose é um projeto onde posso demonstrar algumas de
+              minhas habilidades utilizando Jetpack Compose, kotlin MVVM,
+              Coroutines, Retrofit, Dagger-Hilt e outras tecnologias.
+            </p>
+            <a href="https://github.com/RenanPdeOliveira/WeatherCompose"
+              target="_blank">Saiba mais &rarr;
+            </a>
+          </div>
+        </li>
+        <li class="portfolio__top__reverse">
+          <div class="image">
+            <img src="assets/github-search.jpeg" alt="Github Search" />
+          </div>
+          <div class="portfolio__info">
+            <h3>Github Search</h3>
+            <p>
+              Github Search é um aplicativo que através de uma API traz todos os
+              repositórios de um usuário específico do github. Você pode
+              compartilhar o repositório ou abrir o navegador para dar uma
+              olhada. Tecnologias: Kotlin, MVVM, Retrofit, API REST, Corrotinas,
+              ViewBinding e XML.
+            </p>
+            <a href="https://github.com/RenanPdeOliveira/GithubSearch"
+              target="_blank">Saiba mais &rarr;
+            </a>
+          </div>
+        </li>
+      </ul>
+      <div class="portfolio__bottom">
+        <p>
+          Para conhecer mais de meus projetos e até mesmo ao código-fonte,
+          acesse meu Github abaixo.
+        </p>
+        <a href="https://github.com/RenanPdeOliveira" 
+          target="_blank">Mais projetos
+        </a>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <footer id="contato" class="contato max-width">
+      <div class="contato__content">
+        <h2>Contato</h2>
+        <!-- Formulario de contato -->
+        <form action="https://formsubmit.co/7e5e947be424bf55b67b3c7799b2c4b8" method="POST">
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required/>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="Digite seu email" required/>
+          <label for="mensagem">Mensagem:</label>
+          <textarea name="mensagem" id="mensagem" placeholder="Digite alguma mensagem"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+      <!-- Links para redes sociais -->
+      <ul>
+        <li>
+          <a href="https://github.com/RenanPdeOliveira" 
+            target="_blank">
+            <img src="assets/github.svg" alt="Github"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/renan-pires-332568142/"
+            target="_blank">
+            <img src="assets/linkedin.svg" alt="Linkedin"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/renanpiresoliveira/?igsh=Y2xiOHVuNjNsanl6&utm_source=qr"
+            target="_blank">
+            <img src="assets/instagram.svg" alt="Instagram"/>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <!-- Script -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
